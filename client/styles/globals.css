@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(0, 0, 0) !important;
+  background: #ffffff  !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.gradient-01 {
+  position: absolute;
+  width: 200px;
+  height: 238px;
+  top: 0;
+  background: #ca00ff;
+  filter: blur(175px);
+  z-index:-1;
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 200px;
+  height: 238px;
+  top: -6rem;
+  right: 0px;
+  background: #7aebfb;
+  filter: blur(190px);
+  z-index:-1;
+}
+
+
+.maindiv{
+  background-color: rgb(26 35 46 / 1);
+}
