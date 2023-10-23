@@ -202,7 +202,7 @@ def download_and_save():
     return jsonify(response="Download completed")
 
 def load_model():
-    filename = 'ggml-gpt4all-j-v1.3-groovy.bin'  # Specify the name for the downloaded file
+    filename = 'ggml-model-gpt4all-falcon-q4_0'  # Specify the name for the downloaded file
     models_folder = 'models'  # Specify the name of the folder inside the Flask app root
     file_path = f'{models_folder}/{filename}'
     if os.path.exists(file_path):
